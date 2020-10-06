@@ -37,7 +37,7 @@ egg 如果想要使用pm2守护的话
 cd admin 
 npm i
 npm run build 
-pm2 start 'npm start'
+// pm2 start 'npm start'
 pm2 start --name admin2 'npm start'
 // open http://localhost:3001/
 ```
