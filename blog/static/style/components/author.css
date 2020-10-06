@@ -1,0 +1,46 @@
+.author-div{
+  text-align: center;
+  padding: 1rem;
+
+}
+.author-div div{
+  margin-bottom: 1rem;
+
+}
+.author-introduction{
+  font-size:.8rem;
+  color: #999;
+}
+.account{
+  background-color: #999;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+/* 自定义的css */
+/* 头像光圈 */
+.avatar-img .play-en {
+  margin: 0 auto;
+  border-radius: 50%;
+  animation: light 2s linear both infinite;
+}
+.play-en {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-image: url(/static/images/216d5be710ea81064d5ec2ab36b94aa0.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* @keyframes light{
+  0% {
+      box-shadow: 0 0 1px white, 0 0 5px white, 0 0 10px white, 0 0 20px purple, 0 0 5px purple, 0 0 11px pink;
+  } 
+  100% {
+      box-shadow: 0 0 5px white, 0 0 10px yellow, 0 0 15px yellow, 0 0 8px green, 0 0 10px green, 0 0 12px blue;
+  }
+} */
